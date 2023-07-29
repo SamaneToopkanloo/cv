@@ -1,79 +1,44 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>welcom to my page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicee Challenge</title>
+    <link rel="stylesheet" href="Css/style.css">
 </head>
-
-<body bgcolor="#E1DBDB">
-  <img src="picProfile/my pic.jpg" width="15%" height="15%" alt="my pic">
-  <h5>Hello everybody.I am</h5>
-  <h1> <i>Samane Toopkanloo </i> </h1>
-  <hr color="green" siz="5px" width="25%" align="left">
-  <p>student fullStack and python <img src="picProfile/python1.jpg" width="2%" height="2%" alt="logo">
-    <img src="picProfile/html & css.png" width="4%" height="4%" alt="">
-    <img src="picProfile/js.png" width="2.5%" height="2.5%" alt="">
-  </p>
-  <p>I like programming. <img src="picProfile/prog" width="5%" height="5%" alt="pic"></p>
-  <br>
-  <hr color="green" siz="5px" width="100%" align="left">
-  <h2>Education</h2>
-  <ol type="I">
-    <li>Computer Hardware Repair Associate</li>
-    <li>Associate in Business Administration</li>
-    <li>Bachelor of Advertising Management</li>
-  </ol>
-  <hr color="green" siz="5px" width="100%" align="left">
-  <h2>My Habbies</h2>
-  <ul type="square">
-    <li>Listening to an audio book</li>
-    <li>Working with computer</li>
-  </ul>
-
-  <h2>About Me</h2>
-  <p>
-    Well, as I first introduced myself, I am Semane. I am 33 years old. <br>
-    but still eager and interested to learn.I mentioned my academic documents.<br>
-    Now on to non-academic qualifications, I generally
-    like to dabble in any art. First, I started by learning Photoshop.<br>
-    Then it was over, I said what should I do now, I went to learn photography,
-    it's over, what's left, I went to work as an artist,<br> I saw something else,
-    no, this will end soon, and finally I found that main goal and interest,
-    which is programming, and now I've reached it and I will continue.<br> sorry,
-    my English is not very good. And I succeed
-  </p>
-<hr color="green" siz="5px" width="100%" align="left">
-<h2>skills</h2>
-<table>
-  <tr>
-    <td>cooking</td>
-    <td>⭐⭐⭐⭐</td>
-  </tr>
-  <tr>
-    <td> photography </td>
-    <td> ⭐⭐⭐⭐ </td>
-  </tr>
-  <tr>
-    <td> Photoshop </td>
-    <td> ⭐⭐⭐ </td>
-  </tr>
-</table>
-<hr color="green" siz="5px" width="100%" align="left">
-  <table>
-  <tr>
-    <th>contact</th>
-    <th>My picture1</th>
-  </tr>
-  <tr>
-    <td><a href="My contact.html" target="_blank">My contact </a>
-  </td>
-    <td><a href="My picture.html" target="_blank">My picture </a></td> 
-  </tr>
-</table>
+<body>
+    <div class="container">
+        <h1>Refresh Me</h1>
 
 
+    <div class="player">
+        <p>Player 1</p>
+        <img class="img1" src="images/dice-6.png" alt="">
+    </div>
 
+    <div class="player">
+        <p>Player 2</p>
+        <img class="img2" src="images/dice-6.png" alt="">
+
+    </div>
+
+    <div>
+        <button id="startButton" onclick="resetGame()">resetGame</button>    
+
+    </div>
+
+    <div>
+         <button id="changecolor" onclick="rollDice()">chang color</button>
+    </div>
+
+</div>
+     
+    <footer>
+        www 🎲 game 🎲 com
+    </footer>
+
+
+    <script src="Js/main.js"></script>
 </body>
-
 </html>
